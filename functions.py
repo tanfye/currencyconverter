@@ -8,6 +8,6 @@ def currency_converter(amount, currency):
     elif currency == "JPY to GBP":
         rate = 0.0053
 
-    new_amount = rount(amount * rate, 2)
+    new_amount = round(amount * rate, 2)
     return new_amount
 
